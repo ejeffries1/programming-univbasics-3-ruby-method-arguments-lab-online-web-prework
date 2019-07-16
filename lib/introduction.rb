@@ -8,9 +8,8 @@ end
 
 def introduction_with_language_optional(name,language)
   language = "Ruby"
-  if language != "Ruby"
-    puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  else
+    puts "Hi, my name is #{name} and I am learning to program in Ruby."
+  if
    puts "Hi, my name is #{name} and I am learning to program in Ruby."
  end
 end
